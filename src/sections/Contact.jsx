@@ -31,9 +31,9 @@ const Contact = () => {
                 templateId,
                 {
                     from_name: form.name,
-                    to_name: 'Uchechukwu',
+                    to_name: 'ajenaghughrure voweiro',
                     from_email: form.email,
-                    to_email: 'uchennahanson@gmail.com',
+                    to_email: 'ajenaghonorevoweiro@gmail.com',
                     message: form.message,
                 },
                 publicKey,
