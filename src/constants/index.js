@@ -267,7 +267,7 @@ export const workExperiences = [
     {
         id: 1,
         name: 'LexTech EcoSystem limited ',
-        pos: 'Lead Web Developer',
+        pos: 'IT Support',
         duration: '2023 - Present',
         title: "  • Provided timely and effective assistance to clients resolving technical issues with legal tech products via phone, email, and remote access. Developed and maintained in-depth knowledge of legal tech solutions to accurately address client inquiries and deliver informed support. Facilitated client onboarding, training, and product feature guidance for optimal usage. Created and updated user guides, FAQs, and training materials to enhance client understanding.  Identified, analyzed, and resolved technical issues related to software functionality, user errors, and system integration. Gathered client feedback and collaborated with the development team to address recurring issues and inform product improvements. Maintained detailed records of client interact  ",
         icon: '/assets/framer.svg',
