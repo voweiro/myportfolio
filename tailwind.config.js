@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
@@ -23,6 +24,7 @@ export default {
           500: '#62646C',
         },
       },
+      
       backgroundImage: {
         terminal: "url('/assets/terminal.png')",
       },

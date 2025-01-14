@@ -1,18 +1,32 @@
 import { useState } from 'react';
-
 import { navLinks } from '../constants/index.js';
+import { useTheme } from '../hooks/useTheme';
 
-const NavItems = ({ onClick = () => {} }) => (
-    <ul className="nav-ul">
-        {navLinks.map((item) => (
-            <li key={item.id} className="nav-li">
-                <a href={item.href} className="nav-li_a" onClick={onClick}>
-                    {item.name}
-                </a>
-            </li>
-        ))}
-    </ul>
-);
+const NavItems = ({ onClick = () => {} }) => {
+    const { isDarkMode, toggleTheme } = useTheme();
+
+    return (
+        <ul className="nav-ul">
+            {navLinks.map((item) => (
+                <li key={item.id} className="nav-li">
+                    <a href={item.href} className="nav-li_a" onClick={onClick}>
+                        {item.name}
+                    </a>
+                </li>
+            ))}
+            <button
+                onClick={toggleTheme}
+                className="px-[9px] py-[9px] rounded-full text-gray-700 hover:text-gray-900"
+                style={{
+                    background:
+                        "linear-gradient(91.55deg, #150529 45%, #4E415D 45%, #382550 75%, #EC0112 100%)",
+                }}
+            >
+                {isDarkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
+            </button>
+        </ul>
+    );
+};
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -24,15 +38,23 @@ const Navbar = () => {
         <header className="fixed top-0 left-0 right-0 z-50 bg-black/90">
             <div className="max-w-7xl mx-auto">
                 <div className="flex justify-between items-center py-5 mx-auto c-space">
-                    <a href="/" className="text-neutral-400 font-bold text-xl hover:text-white transition-colors">
+                    <a
+                        href="/"
+                        className="text-neutral-400 font-bold text-xl hover:text-white transition-colors"
+                    >
                         Ajenaghughrure
                     </a>
 
                     <button
                         onClick={toggleMenu}
                         className="text-neutral-400 hover:text-white focus:outline-none sm:hidden flex"
-                        aria-label="Toggle menu">
-                        <img src={isOpen ? 'assets/close.svg' : 'assets/menu.svg'} alt="toggle" className="w-6 h-6" />
+                        aria-label="Toggle menu"
+                    >
+                        <img
+                            src={isOpen ? 'assets/close.svg' : 'assets/menu.svg'}
+                            alt="toggle"
+                            className="w-6 h-6"
+                        />
                     </button>
 
                     <nav className="sm:flex hidden">
