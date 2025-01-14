@@ -174,10 +174,10 @@ export const workExperiences = [
     },
     {
         id: 3,
-        name: 'Notion',
+        name: 'HIIT',
         pos: 'Junior Web Developer',
         duration: '2019 - 2020',
-        title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+        title: "Completed a series of projects focused on implementing user-centric design, accessibility standards, and cross-browser compatibility, contributing to a comprehensive portfolio showcasing effective UI solutions. Assisted in the IT Help Desk, providing technical support and troubleshooting for students and staff, enhancing system efficiency and response times. Actively participated in structured code reviews led by senior instructors, refining code for readability, maintainability, and alignment with industry standards. Built strong debugging and optimization skills by resolving UI-related issues, improving the performance and user experience of web applications.",
         icon: '/assets/notion.svg',
         animation: 'salute',
     },
