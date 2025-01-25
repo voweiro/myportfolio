@@ -94,6 +94,44 @@ export const myProjects = [
             },
         ],
     },
+    {
+        title: 'Green Clean Nigeria ',
+        desc: ' Green Clean is a pioneering environmental services company dedicated to promoting sustainability and eco-friendly practices. With a strong focus on environmental cleanliness and recycling, our mission is to provide innovative solutions that help reduce waste, conserve natural resources, and mitigate the impact of human activity on the planet.',
+        subdesc:
+            'Built with React, Tailwind CSS, JavaScript, Framer Motion, Glitz is designed to provide a seamless learning experience for children, ensuring both engagement and educational growth in a safe, kid-friendly environment',
+        href: 'https://green-nigeria-beryl.vercel.app',
+        texture: '/textures/project/project1.mp4',
+        logo: '/assets/glitzlogo.png',
+        logoStyle: {
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
+        },
+        spotlight: '/assets/spotlight1.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'TailwindCSS',
+                path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 3,
+                name: 'JavaScript',
+                path: '/assets/js.png',
+            },
+            {
+                id: 4,
+                name: 'Framer Motion',
+                path: '/assets/framer.png',
+            },
+        ],
+    },
+ 
  
     {
         title: 'SelfMed Hub - Health Management System & Online Pharmacy',
