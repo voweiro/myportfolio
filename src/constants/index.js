@@ -131,6 +131,45 @@ export const myProjects = [
             },
         ],
     },
+
+    {
+        title: 'Renew Nigeria ',
+        desc: ' Welcome to Renew Nigeria, a pioneering platform dedicated to powering Nigeria's clean energy transition. Our mission is to accelerate the country's shift towards sustainable, affordable, and reliable energy access for all.The Renew Nigeria conference is a flagship event that brings together stakeholders from across the energy sector, including policymakers, industry leaders, innovators, and experts.',
+        subdesc:
+            'Built with React, Tailwind CSS, JavaScript, Framer Motion, Glitz is designed to provide a seamless learning experience for children, ensuring both engagement and educational growth in a safe, kid-friendly environment',
+        href: 'https://renewnigeria.vercel.app/',
+        texture: '/textures/project/project1.mp4',
+        logo: '/assets/glitzlogo.png',
+        logoStyle: {
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
+        },
+        spotlight: '/assets/spotlight1.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'TailwindCSS',
+                path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 3,
+                name: 'JavaScript',
+                path: '/assets/js.png',
+            },
+            {
+                id: 4,
+                name: 'Framer Motion',
+                path: '/assets/framer.png',
+            },
+        ],
+    },
+ 
  
  
     {
