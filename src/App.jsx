@@ -11,7 +11,7 @@ import WorkExperience from './sections/Experience.jsx';
 const App = () => {
     return (
         <ThemeProvider>
-        <main className="max-w-7xl mx-auto relative bg-slate-200 dark:bg-gray-900 transition-colors duration-300">
+        <main className="max-w-7xl mx-auto relative bg-gray-500 dark:bg-gray-900 transition-colors duration-300">
             <Navbar />
             <Hero />
             <About />
