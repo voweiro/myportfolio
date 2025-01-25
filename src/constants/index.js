@@ -134,7 +134,7 @@ export const myProjects = [
 
     {
         title: 'Renew Nigeria ',
-        desc: ' Welcome to Renew Nigeria, a pioneering platform dedicated to powering Nigeria's clean energy transition. Our mission is to accelerate the country's shift towards sustainable, affordable, and reliable energy access for all.The Renew Nigeria conference is a flagship event that brings together stakeholders from across the energy sector, including policymakers, industry leaders, innovators, and experts.',
+        desc: ' Welcome to Renew Nigeria, a pioneering platform dedicated to powering Nigeria clean energy transition. Our mission is to accelerate the country shift towards sustainable, affordable, and reliable energy access for all.The Renew Nigeria conference is a flagship event that brings together stakeholders from across the energy sector, including policymakers, industry leaders, innovators, and experts.',
         subdesc:
             'Built with React, Tailwind CSS, JavaScript, Framer Motion, Glitz is designed to provide a seamless learning experience for children, ensuring both engagement and educational growth in a safe, kid-friendly environment',
         href: 'https://renewnigeria.vercel.app/',
